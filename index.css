@@ -34,8 +34,13 @@ header {
   font-size: x-large;
   border-bottom: 3px solid var(--monte-carlo);
 }
+
 .logo {
-  margin-left: 20px;
+  margin-left: 40px;
+}
+
+.search {
+  margin-right: 40px;
 }
 
 #searching-input,
@@ -69,11 +74,12 @@ header {
 }
 
 .image{
-  width: 400px;
-  height: 250px;
+  width: 500px;
+  height: 300px;
   background-size: cover;
-  margin-top: 10px;
-  opacity: 70%;
+  background-position: center;
+  margin-bottom: 2vh;
+  opacity: 90%;
   cursor: pointer;
   transition: all 0.5s ease-out;
 }
